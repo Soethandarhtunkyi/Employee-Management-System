@@ -1,0 +1,211 @@
+.login-form {
+  width: 400px;
+  margin: 110px auto;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  border-left: 5px solid #3e64ff;
+}
+
+.login-header {
+  padding: 30px 0 20px 0;
+  font-size: 26px;
+}
+
+.formFooter {
+  padding: 15px;
+  background-color: #f6f6f6;
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px solid #dce8f1;
+  border-radius: 0 0 10px 10px;
+}
+
+.underlineHover:after {
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #3e64ff;
+  content: "";
+  transition: 0.5s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+
+.checkbox {
+  margin-right: 150px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input[type=text],
+input[type=password] {
+  display: block;
+  width: 251px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 2px solid #f6f6f6;
+  background-color: #f1f1f1;
+  color: #0d0d0d;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+button[type=submit] {
+  margin: 20px 20px 30px 20px;
+  padding: 15px 80px;
+  border: none;
+  background-color: #3e64ff;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px 5px 5px 5px;
+}
+
+button[type=submit]:hover {
+  background-color: #20329c;
+}
+
+/*phone screen */
+@media (max-width:640px) {
+
+  .login-form {
+    width: 50VW;
+    margin: 20VW auto;
+    box-shadow: 0.2VW 0.2VW 0.5VW 0.2VW rgb(0 0 0 / 20%);
+    border-radius: 1VW;
+    border-left: 0.5VW solid #3e64ff;
+  }
+
+  .login-header {
+    padding: 2VW 0 1.5VW 0;
+    font-size: 2.5VW;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 25VW;
+    margin-top: 2VW;
+    margin-bottom: 1VW;
+    padding: 1.5VW;
+    border: 0.3VW solid #f6f6f6;
+    font-size: 1.5VW;
+  }
+
+  .checkbox {
+    margin-right: 15VW;
+    padding: 1VW;
+    font-size: 1.5VW;
+  }
+
+  button[type=submit] {
+    margin: 1VW 1VW 2VW 1VW;
+    padding: 2VW 11VW;
+    font-size: 1.5VW;
+    border-radius: 0.5VW 0.3VW 0.5VW 0.3VW;
+  }
+
+  .formFooter {
+    padding: 1.5VW;
+    background-color: #f6f6f6;
+    font-size: 2VW;
+    text-align: center;
+    border-top: 0.3VW solid #dce8f1;
+    border-radius: 0 0 1VW 1VW;
+  }
+
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .login-form {
+    width: 46%;
+    margin: 10.742vw auto;
+    box-shadow: 0.195vw 0.195vw 0.488vw 0.098vw rgb(0 0 0 / 20%);
+    text-align: center;
+    border-radius: 0.977vw;
+    border-left: 0.488vw solid #3e64ff;
+  }
+
+  .login-header {
+    padding: 2.930vw 0vw 1.953vw 0vw;
+    font-size: 2.539vw;
+  }
+
+  .formFooter {
+    padding: 1.465vw;
+    background-color: #f6f6f6;
+    font-size: 1.465vw;
+    text-align: center;
+    border-top: 0.098vw solid #dce8f1;
+    border-radius: 0vw 0vw 0.977vw 0.977vw;
+  }
+
+  .underlineHover:after {
+    display: block;
+    width: 0;
+    height: 0.195vw;
+    background-color: #3e64ff;
+    content: "";
+    transition: 0.5s;
+  }
+
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+
+  .underlineHover:hover:after {
+    width: 100%;
+  }
+
+  .checkbox {
+    margin-right: 25.048vw;
+    padding: 0.977vw;
+    font-size: 1.465vw;
+  }
+
+  input[type=text],
+  input[type=password] {
+    display: block;
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 1.953vw;
+    margin-bottom: 0.977vw;
+    padding: 1.465vw;
+    border: 0.195vw solid #f6f6f6;
+    background-color: #f1f1f1;
+    color: #0d0d0d;
+    font-size: 1.367vw;
+    text-decoration: none;
+  }
+
+  button[type=submit] {
+    margin: 1.953vw 1.953vw 2.930vw 1.953vw;
+    padding: 1.465vw 7.813vw;
+    border: none;
+    background-color: #3e64ff;
+    color: white;
+    font-size: 1.270vw;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 0.488vw 0.488vw 0.488vw 0.488vw;
+  }
+
+  button[type=submit]:hover {
+    background-color: #20329c;
+  }
+}

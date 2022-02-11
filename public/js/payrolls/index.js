@@ -1,0 +1,8 @@
+
+$(function () {
+    $('#payrolls').DataTable({
+        "aaSorting": []
+    });
+    
+});
+

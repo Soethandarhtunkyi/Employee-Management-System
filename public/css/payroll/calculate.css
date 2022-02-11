@@ -1,0 +1,142 @@
+.container {
+  height: 85%;
+}
+
+.card {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 12px #7992e2;
+  border-radius: 1.094vw;
+}
+
+.card:hover {
+  box-shadow: 0 0 6px #7992e2;
+}
+
+.card-body {
+  padding: 20px 0;
+  border: 1px solid #79797954;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.title {
+  color: #7992e2;
+  font-size: 20px;
+}
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  .container {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .listcard-header {
+    padding: 1vw;
+    border: 0.3vw solid #cececee1;
+    font-size: 3vw;
+  }
+
+  .card-body {
+    padding: 2vw 0;
+    border: 0.3vw solid #79797954;
+    font-size: 1.5vw;
+  }
+
+  .value {
+    width: 40%;
+    margin-right: 5vw;
+    padding: 0.7vw 1vw;
+    background: #fff;
+    font-size: 2.184vw;
+    border-radius: 0.8vw;
+  }
+
+  .row {
+    margin-bottom: 2vw;
+  }
+
+  .label {
+    width: 40%;
+    font-size: 2.184vw;
+  }
+
+  .title {
+    font-size: 2.684vw;
+  }
+
+  .blue-btn {
+    padding: 1vw 1vw;
+    font-size: 2.4vw;
+    border-radius: 1.4vw;
+  }
+
+  .yellow-btn {
+    padding: 1vw 1vw;
+    font-size: 2.4vw;
+    border-radius: 1.2vw;
+  }
+
+  .align {
+    margin: 1vw;
+  }
+
+  .dataTables_wrapper .dataTables_info {
+    float: left;
+    clear: both;
+    width: 40vw;
+    padding-top: 0.755em;
+    font-size: 2.884vw;
+    text-align: left;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    font-size: 1.5vw;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-size: 2.884vw;
+  }
+
+  .alert-errmsg {
+    padding: 2vw 3vw;
+    border: 0.3vw solid #ff9596;
+    font-size: 2vw;
+  }
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.953vw;
+    box-shadow: 0 0 1.172vw #7992e2;
+    border-radius: 1.094vw;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 0.586vw #7992e2;
+  }
+
+  .card-body {
+    padding: 1.953vw 0;
+    border: 0.098vw solid #79797954;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .title {
+    color: #7992e2;
+    font-size: 2.553vw;
+  }
+
+  .ft-cp {
+    margin-top: 4vw;
+  }
+}

@@ -1,0 +1,158 @@
+.my-button {
+  padding: 4px 9px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  background: #4966e7;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.my-button:hover {
+  background: #fff;
+  color: #4966e7;
+}
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  #content {
+    width: 100%;
+  }
+
+  .list-card {
+    border: 0.1vw solid #cdcdcd;
+    font-size: 2.125vw;
+    overflow-x: scroll;
+    border-radius: 0.5vw;
+  }
+
+  .listcard-header {
+    padding: 1vw;
+    border: 0.3vw solid #cececee1;
+    font-size: 3.125vw;
+  }
+
+  table.dataTable {
+    width: 98%;
+    border: 0.5vw solid #cdcdcd;
+    font-size: 2.125vw;
+  }
+
+  .sm-btn {
+    padding: 0.2vw 1.8vw;
+    font-size: 2.184vw;
+  }
+
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter {
+    font-size: 2.5vw;
+  }
+
+  div.dataTables_length select {
+    border: 0.3vw solid #c5c5c5;
+    font-size: 2.5vw;
+    border-radius: 0.5vw;
+  }
+
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_paginate {
+    font-size: 2vw;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    margin-top: 1.5vw;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    margin-left: 1vw;
+    padding: 0.2em 0.7em;
+    min-width: 1.5em;
+  }
+
+  .my-button {
+    padding: 1vw 1.5vw;
+    box-shadow: 0 0.5vw 1vw rgb(0 0 0 / 15%);
+    font-size: 2vw;
+    border-radius: 50%;
+  }
+
+  table.dataTable thead th,
+  table.dataTable thead td {
+    padding: 1vw 1.5vw;
+    border-bottom: 0.3vw solid #111;
+  }
+
+  table.dataTable tbody th,
+  table.dataTable tbody td {
+    padding: 0.8vw 1vw;
+  }
+
+  .dataTables_wrapper .dataTables_filter input {
+    padding: 0.1vw;
+    border: 1px solid #c5c5c5;
+    border-radius: 1vw;
+  }
+
+  .dataTables_filter,
+  .dataTables_length,
+  .dataTables_info,
+  .dataTables_paginate {
+    margin: 1vw;
+  }
+
+
+  .dataTables_wrapper .dataTables_info {
+    float: left;
+    clear: both;
+    width: 37vw;
+    padding-top: 0.755em;
+    font-size: 2.884vw;
+    text-align: left;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    font-size: 2vw;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-size: 2.884vw;
+  }
+
+  .ft-cp {
+    margin-top: 1vw;
+    margin-left: 3vw;
+    padding: 3.125vw 0;
+    font-size: 2.144vw;
+  }
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .my-button {
+    padding: 0.391vw 0.979vw;
+    border: none;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    background: #4966e7;
+    color: white;
+    font-size: 2.184vw;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .my-button:hover {
+    background: #fff;
+    color: #4966e7;
+  }
+
+  .ft-cp {
+    margin-top: 4vw;
+  }
+}

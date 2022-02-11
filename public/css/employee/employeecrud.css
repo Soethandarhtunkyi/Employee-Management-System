@@ -1,0 +1,270 @@
+.cardcreate {
+  padding: 0px 40px 30px;
+}
+
+.profile-pic {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.card-body {
+  padding: 20px 0;
+  border: 1px solid #79797954;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+#preview-profile {
+  width: 200px;
+  max-height: 200px;
+}
+
+.con-left {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.con-right {
+  float: right;
+  margin-right: 13%;
+  margin-bottom: 20px;
+}
+
+.btn-cancel {
+  width: 100px;
+  padding-bottom: 10px;
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-back {
+  width: 100px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: rgb(250, 245, 245);
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-add {
+  width: 130px;
+  padding-bottom: 10px;
+  background-color: blue;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-danger {
+  color: red;
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  width: 500px;
+  margin: 0 auto;
+  color: black;
+  font-size: 30px;
+}
+
+input[type=number] {
+  position: relative;
+  width: 92%;
+}
+
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  .container {
+    height: 173vw;
+    max-width: 95%;
+  }
+
+  .cardcreate {
+    width: 90%;
+    padding: 0vw 4vw 5vw;
+    font-size: 1.5vw;
+  }
+
+  .listcard-header {
+    width: 78vw;
+    padding: 1vw;
+    border: 0.3vw solid #cececee1;
+    font-size: 2.5vw;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 1.5vw;
+    font-size: 2.184vw;
+    border-radius: 1vw;
+  }
+
+  .blue-btn {
+    padding: 1vw 1.5vw;
+    font-size: 2.184vw;
+    border-radius: 1vw;
+  }
+
+  input[type=submit] {
+    padding: 1.5vw;
+    font-size: 2vw;
+  }
+
+  .red-btn {
+    padding: 1.5vw 2vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+  }
+
+  select.form-select {
+    width: 100%;
+    padding: 1vw 0.5vw;
+    font-size: 2.184vw;
+    border-radius: 0.3vw;
+  }
+
+  input[type=number] {
+    position: relative;
+    width: 89%;
+  }
+
+  .btn-filechoose {
+    width: 100%;
+    font-size: 2.184vw;
+  }
+
+  .text {
+    width: 30%;
+    margin-left: 6vw;
+    padding: 1vw 0;
+    font-size: 2.184vw;
+  }
+
+  .yellow-btn {
+    margin-top: 2vw;
+    padding: 1vw 1.5vw;
+    font-size: 2.184vw;
+    border-radius: 1vw;
+  }
+
+  .profile-pic {
+    width: 30.25vw;
+    height: 30.25vw;
+    margin-bottom: 3vw;
+  }
+
+  .card-body {
+    width: 80.2vw;
+    padding: 1.5vw 0;
+    border: 0.1px solid #79797954;
+  }
+
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cardcreate {
+    padding: 0vw 3.906vw 2.930vw;
+  }
+
+  .profile-pic {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 1.953vw;
+    border-radius: 50%;
+  }
+
+  .card-body {
+    padding: 1.953vw 0;
+    border: 0.098vw solid #79797954;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  #preview-profile {
+    max-height: 200px;
+  }
+
+  .con-left {
+    float: left;
+    width: 50%;
+    margin-bottom: 1.953vw;
+    margin-left: 4.883vw;
+  }
+
+  .con-right {
+    float: right;
+    margin-right: 13%;
+    margin-bottom: 1.953vw;
+  }
+
+  .btn-cancel {
+    width: 100%;
+    padding-bottom: 0.977vw;
+    background-color: red;
+    color: #fff;
+    font-size: 1.563vw;
+    text-align: center;
+  }
+
+  .btn-back {
+    width: 100%;
+    margin-bottom: 1.953vw;
+    padding-bottom: 0.977vw;
+    background-color: rgb(250, 245, 245);
+    color: black;
+    font-size: 1.563vw;
+    text-align: center;
+  }
+
+  .btn-add {
+    width: 100%;
+    padding-bottom: 0.977vw;
+    background-color: blue;
+    color: #fff;
+    font-size: 1.563vw;
+    text-align: center;
+  }
+
+  .text-danger {
+    color: red;
+    font-weight: bold;
+  }
+
+  .card:hover {
+    box-shadow: 0 0.781vw 1.563vw 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .title {
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    font-size: 2.930vw;
+  }
+
+  input[type=number] {
+    position: relative;
+    width: 87%;
+  }
+
+  .ft-cp {
+    margin-top: 2vw;
+  }
+}

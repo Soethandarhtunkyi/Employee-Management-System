@@ -1,0 +1,190 @@
+.container {
+  height: 81%;
+}
+
+.con {
+  width: 100%;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-upload {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.cardheader-upload {
+  padding: 10px;
+  border: 1px solid #e2e1e1;
+  background-color: #e2e1e1;
+  font-size: 15px;
+}
+
+.emp {
+  font-weight: 900;
+}
+
+.btn-import {
+  margin-bottom: 10px;
+  padding: 6px;
+  border: none;
+  background-color: #04a51f;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-group {
+  margin-left: 28%;
+}
+
+.mb-4 {
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  width: 100%;
+  padding: 20px;
+  background: #f55190;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.custom-file {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.red-btn {
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  .card-upload {
+    width: 90%;
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+    border: 0.3vw solid #cdcdcd;
+    font-size: 1.5vw;
+    border-radius: 0.5px;
+  }
+
+  .cardheader-upload {
+    padding: 1vw;
+    border: 0.3vw solid #e2e1e1;
+    font-size: 3vw;
+  }
+
+  .custom-file {
+    margin-top: 2vw;
+  }
+
+  .btn-filechoose {
+    font-size: 2.184vw;
+  }
+
+  .btn-import {
+    margin-bottom: 1vw;
+    padding: 1.5vw;
+    font-size: 2.184vw;
+    border-radius: 1.5vw;
+  }
+
+  .red-btn {
+    padding: 1.5vw;
+    font-size: 2.184vw;
+  }
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .con {
+    width: 100%;
+  }
+
+  .mt-5 {
+    margin-top: 1.953vw;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .card-upload {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 1.953vw;
+    padding-bottom: 0.977vw;
+    border: 1px solid #cdcdcd;
+    background-color: #ffffff;
+    border-radius: 0.488vw;
+  }
+
+  .cardheader-upload {
+    padding: 0.977vw;
+    border: 0.098vw solid #e2e1e1;
+    background-color: #e2e1e1;
+    font-size: 2.953vw;
+  }
+
+  .emp {
+    font-weight: 900;
+  }
+
+  .btn-import {
+    margin-bottom: 0.977vw;
+    padding: 0.586vw;
+    border: none;
+    background-color: #04a51f;
+    color: #fff;
+    font-size: 2.184vw;
+    cursor: pointer;
+    border-radius: 0.684vw;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.977vw;
+  }
+
+  .alert-danger {
+    width: 100%;
+    padding: 1.953vw;
+    background: #f55190;
+    border-radius: 0.977vw;
+  }
+
+  .form-group {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .custom-file {
+    margin-top: 2.344vw;
+    text-align: center;
+  }
+
+  .ft-cp {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,5 @@
+$(function () {
+    $('#schedules').DataTable({
+        "aaSorting": []
+    });
+});

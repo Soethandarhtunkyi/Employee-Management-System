@@ -1,0 +1,319 @@
+.card-submit {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.cardheader-submit {
+  padding: 10px;
+  border: 1px solid #e2e1e1;
+  background-color: #e2e1e1;
+  font-size: 15px;
+}
+
+.txt-date {
+  float: right;
+  color: #7a7a7a;
+}
+
+.form-check {
+  display: inline-block;
+  margin: 20px;
+}
+
+.form-check-input {
+  margin-bottom: 6px;
+}
+
+.float-end {
+  float: right;
+  margin-right: 34px;
+}
+
+.card-text {
+  padding: 15px 0 15px 10px;
+}
+
+.checkout-btn {
+  margin-left: 135px;
+}
+
+.checkin-btn {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.mr-icon {
+  margin-right: 4px;
+  padding: 5px 0;
+}
+
+.row {
+  margin: 14px;
+  text-align: center;
+}
+
+.dates {
+  margin-left: 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  #content {
+    width: 90%;
+    min-height: 116vh;
+  }
+
+  .container {
+    width: 98%;
+    height: 107vw;
+  }
+
+  .cardheader-submit {
+    padding: 1vw;
+    border: 0.5vw solid #e2e1e1;
+    font-size: 2.184vw;
+  }
+
+  form {
+    width: 100%;
+    margin-top: 1vw;
+    font-size: 2.184vw;
+  }
+
+  .float-end {
+    margin-right: 0vw;
+  }
+
+  .form-check {
+    margin: 0.5vw;
+  }
+
+  .form-check-input {
+    width: 2vw;
+    margin-bottom: 0.5VW;
+  }
+
+  .card-submit {
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 2.5vw;
+    padding-bottom: 1.5vw;
+    border: 0.5px solid #cdcdcd;
+    border-radius: 1vw;
+  }
+
+  .blue-btn {
+    margin-top: 1.4vw;
+    padding: 1.4vw 1.5vw;
+    font-size: 2vw;
+    border-radius: 1.5vw;
+  }
+
+  .row {
+    width: 34vw;
+    margin: 1.5vw;
+    font-size: 2.184vw;
+  }
+
+  .dates {
+    margin-left: 1vw;
+    padding: 0.5vw;
+    font-size: 2.184vw;
+    border-radius: 0.3vw;
+  }
+
+  .mr-table {
+    margin-bottom: 1vw;
+  }
+
+  .mr-icon {
+    margin-right: 1VW;
+    padding: 0.5VW 0;
+  }
+
+  .list-card {
+    border: 0.1vw solid #cdcdcd;
+    font-size: 2.184vw;
+    border-radius: 0.5vw;
+  }
+
+  .listcard-header {
+    padding: 1vw;
+    border: 0.3vw solid #cececee1;
+    font-size: 3.125vw;
+  }
+
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter {
+    font-size: 2.884vw;
+  }
+
+  table.dataTable {
+    width: 98%;
+    border: 0.5vw solid #cdcdcd;
+    font-size: 2.184vw;
+  }
+
+  .dataTables_wrapper .dataTables_info {
+    float: left;
+    clear: both;
+    width: 42vw;
+    padding-top: 0.755em;
+    font-size: 2.884vw;
+    text-align: left;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    font-size: 2.184vw;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-size: 2.884vw;
+  }
+
+  .dataTables_wrapper .dataTables_filter input {
+    padding: 0.1vw;
+    border: 0.2vw solid #c5c5c5;
+    border-radius: 1vw;
+  }
+
+  div.dataTables_length select {
+    border: 0.3vw solid #c5c5c5;
+    font-size: 2.684vw;
+    border-radius: 0.5vw;
+  }
+
+  table.dataTable thead th,
+  table.dataTable thead td {
+    padding: 1vw 1.5vw;
+    border-bottom: 0.3vw solid #111;
+  }
+
+  .dataTables_wrapper {
+    overflow-x: auto;
+  }
+
+  .success-msg {
+    margin: 1vw 0;
+    padding: 2vw;
+    background-color: #DFF2BF;
+    color: #4F8A10;
+    font-size: 2.184vw;
+  }
+
+  table.dataTable tbody th,
+  table.dataTable tbody td {
+    padding: 0.8vw 1vw;
+  }
+
+  .card-text {
+    padding: 3.5vw 0 2vw 1.5vw;
+    font-size: 2.184vw;
+  }
+
+  .checkout-btn {
+    margin-left: 12vw;
+  }
+
+  .ft-cp {
+    margin-top: 82vw;
+    margin-left: 3vw;
+    padding: 3.125vw 0;
+    font-size: 2.184vw;
+  }
+
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .card-submit {
+    width: 49%;
+    margin: 0 auto;
+    margin-bottom: 1.953vw;
+    padding-bottom: 0.977vw;
+    border: 0.098vw solid #cdcdcd;
+    background-color: #ffffff;
+    border-radius: 0.488vw;
+  }
+
+  .cardheader-submit {
+    padding: 0.977vw;
+    border: 0.098vw solid #e2e1e1;
+    background-color: #e2e1e1;
+    font-size: 2.184vw;
+  }
+
+  .txt-date {
+    float: right;
+    color: #7a7a7a;
+  }
+
+  .form-check {
+    display: inline-block;
+    margin: 1.953vw;
+  }
+
+  .form-check-input {
+    margin-bottom: 0.586vw;
+  }
+
+  .float-end {
+    float: right;
+    margin-right: 3.320vw;
+  }
+
+  .card-text {
+    padding: 1.465vw 0vw 1.465vw 0.977vw;
+  }
+
+  .checkout-btn {
+    margin-left: 13.184vw;
+  }
+
+  .checkin-btn {
+    display: block;
+    margin: 0vw auto 0.977vw;
+    font-size: 2.184vw;
+  }
+
+  .mr-icon {
+    margin-right: 0.391vw;
+    padding: 0.488vw 0vw;
+  }
+
+  .row {
+    margin: 1.567vw;
+    text-align: center;
+  }
+
+  .dates {
+    margin-left: 1.953vw;
+    padding: 0.781vw;
+    font-size: 2.184vw;
+    border-radius: 0.977vw;
+  }
+
+  label {
+    font-size: 2.184vw;
+  }
+
+  .ft-cp {
+    margin-top: 4vw;
+  }
+
+  .ft-cp {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,131 @@
+.card {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.blue-btn {
+  margin-left: 50px;
+}
+
+.card-body {
+  padding: 20px 0;
+  border: 1px solid #79797954;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+input[type=number]:before {
+  margin-right: 5px;
+  color: #9d9d9d;
+  content: '';
+}
+
+input[type=number] {
+  position: relative;
+  width: 87%;
+}
+
+.btn-group {
+  margin-left: 30%;
+}
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+
+  .container {
+    width: 90%;
+    margin-right: 27vw;
+    padding: 0vw;
+    font-size: 1.5vw;
+  }
+
+  .listcard-header {
+    width: 52vw;
+    padding: 1vw;
+    border: 0.5vw solid #cececee1;
+    font-size: 3vw;
+  }
+
+  .card-body {
+    width: 54vw;
+    padding: 2vw 0;
+    border: 0.4vw solid #79797954;
+  }
+
+  input[type=number] {
+    width: 82%;
+    font-size: 2.184vw;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 1vw;
+    border-radius: 0.7vw;
+  }
+
+  .row {
+    margin-bottom: 1.5vw;
+  }
+
+  input[type=submit] {
+    font-size: 2.184vw;
+  }
+
+  .blue-btn {
+    margin-left: 12vw;
+    padding: 1vw 1.4vw;
+    border-radius: 1.2vw;
+  }
+
+  .red-btn {
+    padding: 1vw 1.4vw;
+    font-size: 2.184vw;
+    border-radius: 1.2vw;
+  }
+
+  .text {
+    width: 30%;
+    margin-left: 6vw;
+    padding: 1vw 0;
+    font-size: 2.184vw;
+  }
+}
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 80%;
+    margin: 0 auto;
+    border: 0.098vw solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.391vw;
+  }
+
+  .blue-btn {
+    margin-left: 4.883vw;
+  }
+
+  .card-body {
+    padding: 1.953vw 0;
+    border: 1px solid #79797954;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  input[type=number]:before {
+    margin-right: 0.488vw;
+    color: #9d9d9d;
+    content: '';
+  }
+
+  input[type=number] {
+    position: relative;
+    width: 83%;
+  }
+
+  .ft-cp {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,144 @@
+.git-link {
+  display: block;
+}
+
+.git-link input {
+  cursor: pointer;
+}
+
+.half {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+input[type=text].group {
+  width: 85%;
+  margin-bottom: 5px;
+}
+
+.list-card {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.dataTables_wrapper {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.btn-download {
+  padding: 5px;
+  background-color: #3e64ff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.icon-download {
+  padding: 6px 6px;
+}
+
+.btn-group {
+  margin-left: 25%;
+}
+
+
+/*phone screen */
+@media screen and (max-width:767.9px) {
+  .half {
+    width: 90%;
+  }
+
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  input[type=text] {
+    width: 80% !important;
+    font-size: 2.184vw;
+  }
+
+  input[type=submit] {
+    font-size: 1.5vw;
+    vertical-align: baseline;
+  }
+
+  .container {
+    height: auto;
+  }
+
+}
+
+
+/*---------Ipad--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    height: auto;
+  }
+
+  .git-link {
+    display: block;
+  }
+
+  .git-link input {
+    cursor: pointer;
+  }
+
+  .half {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  input[type=text] {
+    width: 100%;
+  }
+
+  input[type=text].group {
+    width: 85%;
+    margin-bottom: 0.488vw;
+  }
+
+  .list-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.953vw;
+  }
+
+  .dataTables_wrapper {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .btn-download {
+    padding: 0.488vw;
+    background-color: #3e64ff;
+    color: #ffffff;
+    border-radius: 0.488vw;
+  }
+
+  .icon-download {
+    padding: 0.586vw 0.586vw;
+  }
+}
